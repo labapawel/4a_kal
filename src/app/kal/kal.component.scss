@@ -1,0 +1,30 @@
+.kal {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows:  repeat(6, 1fr);
+    height: 100%;
+
+}
+
+.dt1 {
+    grid-column-start: 1;
+}
+
+.dt2 {
+    grid-column-start: 2;
+}
+.dt3 {
+    grid-column-start: 3;
+}
+.dt4 {
+    grid-column-start: 4;
+}
+.dt5 {
+    grid-column-start: 5;
+}
+.dt6 {
+    grid-column-start: 6;
+}
+.dt7 {
+    grid-column-start: 7;
+}

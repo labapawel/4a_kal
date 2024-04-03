@@ -1,0 +1,9 @@
+<div>
+    <span (click)="beck()"><<<<</span>
+    {{czas.format("YYYY-MM")}}
+    <span (click)="next()">>>>></span>
+</div>
+<div class="kal">
+    <div class="nag" *ngFor="let item of nag">{{item}}</div>
+    <div *ngFor="let item of events()" class="{{class_pole(item)}} " >{{item.czas.format("DD")}}</div>
+</div>
